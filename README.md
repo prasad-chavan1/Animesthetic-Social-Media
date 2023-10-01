@@ -15,7 +15,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone this repository to your local machine using the following command:
 
    ```shell
-   git clone https://github.com/yourusername/social-media-app.git
+   git clone https://github.com/yourusername/Animesthetic-Social-Media.git
 
 2. Then go to Social App directory using command:
 
