@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
    ```shell
    git clone https://github.com/yourusername/Animesthetic-Social-Media.git
 
-2. install the required librarys using command:
+2. Install the required librarys using command:
 
    ```shell
    pip install -m requirements.txt
