@@ -52,3 +52,6 @@ If you would like to contribute to this project, please follow these steps:
 
 Thank you to the following contributors who have helped improve this project:
 - [Prasad Chavan](https://github.com/prasad-chavan1)
+
+![ ](https://github.com/Ekata2003/codeWave.github.io/blob/main/itachiDesc.png?raw=true)
+
