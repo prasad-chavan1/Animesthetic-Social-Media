@@ -17,22 +17,29 @@ Before you begin, ensure you have met the following requirements:
    ```shell
    git clone https://github.com/yourusername/Animesthetic-Social-Media.git
 
-2. Then go to Social App directory using command:
+2. install the required librarys using command:
+
+   ```shell
+   pip install -m requirements.txt
+
+
+3. Then go to Social App directory using command:
 
    ```shell
    cd Social-Network
 
-3. Run app on local machine using command:
+
+4. Run app on local machine using command:
 
    ```shell
    python manage.py runserver
 
-4. Create Super User by using command:
+5. Create Super User by using command:
 
    ```shell
    python manage.py createsuperuser
 
-5. Enter details and good to go 😄 go to following url in your browser:
+6. Enter details and good to go 😄 go to following url in your browser:
 
    ```shell
    http://127.0.0.1:8000/admin
