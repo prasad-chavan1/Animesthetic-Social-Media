@@ -17,15 +17,16 @@ Before you begin, ensure you have met the following requirements:
    ```shell
    git clone https://github.com/yourusername/Animesthetic-Social-Media.git
 
-2. Then go to Social App directory using command:
-
-   ```shell
-   cd Social-Network
-
-3. install the required librarys using command:
+2. install the required librarys using command:
 
    ```shell
    pip install -m requirements.txt
+
+
+3. Then go to Social App directory using command:
+
+   ```shell
+   cd Social-Network
 
 
 4. Run app on local machine using command:
