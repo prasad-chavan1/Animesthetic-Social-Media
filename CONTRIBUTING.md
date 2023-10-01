@@ -1,6 +1,6 @@
 # Contributing to the Animesthetic Social Media Project
 
-Thank you for considering contributing to the Animesthetic Social Media project! We appreciate your interest in helping us make this project better. To ensure a smooth and productive collaboration, please review and follow these guidelines when contributing.
+Thank you for considering contributing to the Animesthetic Social Media project! We appreciate your interest in helping us make this project better. To ensure a smooth and productive collaboration, please review and follow these guidelines when contributing!!!
 
 ## How to Contribute
 
