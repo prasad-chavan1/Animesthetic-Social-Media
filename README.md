@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 2. Then go to Social App directory using command:
 
    ```shell
-   cd socialApp
+   cd Social-Network
 
 3. Run app on local machine using command:
 
