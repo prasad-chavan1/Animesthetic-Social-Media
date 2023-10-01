@@ -18,8 +18,8 @@
 .btn:hover,
 .btn:active,
 .btn:focus {
-  background-color: #942525 !important;
-  border-color: #942525 !important;
+  background-color: #ed3f3f !important;
+  border-color: #ed3f3f !important;
 }
 .star {
   color: red;

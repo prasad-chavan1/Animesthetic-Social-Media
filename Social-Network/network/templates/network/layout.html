@@ -55,7 +55,7 @@
                                 </div>
                                 <div>
                                     <button class="btn btn-light float-right cancel-post" type="button" onclick="remove_popup()">Cancel</button>
-                                    <input type="submit" class="btn btn-success float-right submit-btn" value="&nbsp;Post&nbsp;" disabled>
+                                    <input type="submit" class="btn btn-danger float-right submit-btn" value="&nbsp;Post&nbsp;" disabled>
                                 </div>
                             </div>
                         </form>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="btn-div">
-                        <button class="btn btn-success btn-block" onclick="goto_register()">Sign Up</button>
+                        <button class="btn btn-danger btn-block" onclick="goto_register()">Sign Up</button>
                         <button class="btn btn-outline-success btn-block" onclick="goto_login()">Login</button>
                     </div>
                 </center>
@@ -180,7 +180,7 @@
                             </ul>
                         </div>
                         {% if user.is_authenticated %}
-                            <button id="popup-btn" class="btn btn-success new-post-btn" onclick="createpost()">Create Post</button>
+                            <button id="popup-btn" class="btn btn-danger new-post-btn" onclick="createpost()">Create Post</button>
                         {% endif %}
                     </div>
                     <div style="position: absolute; bottom: 10px;">
@@ -271,7 +271,7 @@
                                     Sign up now to get connected with people you know.
                                 </div>
                                 <div class="guest-btn">
-                                    <button class="btn btn-success btn-block" type="button" onclick="goto_register()">Sign Up</button>
+                                    <button class="btn btn-danger btn-block" type="button" onclick="goto_register()">Sign Up</button>
                                 </div>
                             </center>
                         </div>
