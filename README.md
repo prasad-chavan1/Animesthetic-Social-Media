@@ -28,7 +28,6 @@ Before you begin, ensure you have met the following requirements:
    ```shell
    pip install -m requirements.txt
 
-
 4. Run app on local machine using command:
 
    ```shell
