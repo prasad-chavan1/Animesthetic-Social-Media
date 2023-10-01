@@ -22,12 +22,10 @@ Before you begin, ensure you have met the following requirements:
    ```shell
    pip install -m requirements.txt
 
-
 3. Then go to Social App directory using command:
 
    ```shell
    cd Social-Network
-
 
 4. Run app on local machine using command:
 
