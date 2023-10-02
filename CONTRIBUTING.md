@@ -59,3 +59,5 @@ Follow the project's coding standards and style guidelines as outlined in the do
 Your contributions help make the Animesthetic Social Media project better for everyone. We appreciate your dedication and support in improving this project.
 
 Happy coding!
+
+#### 🛑 The one who solve 4+ issues will be get promoted to COLLABORATOR of this REPOSITORY 🛑
