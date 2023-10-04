@@ -82,7 +82,7 @@ svg{
 }
 .sidenav .nav-link > div:hover{
     color: #e32626;
-    background-color: #e7f8ef;
+    background-color: #ffe8e8;
     transition-duration: .2s;
 }
 .new-post-btn{
