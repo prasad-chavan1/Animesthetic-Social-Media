@@ -19,6 +19,41 @@ function drop_down(event) {
   }, 100);
 }
 
+async function show_more_suggestions(event){
+    const response = await fetch('/n/suggested')
+    const data = await response.json();
+    console.log(data)
+      document.getElementsByClassName("suggestion-footer")[0].style.display="none"
+      const suggestionUsers = document.querySelector('.suggestion-users');
+      data["suggestions"].forEach(user => {
+        const suggestionUser = document.createElement('div');
+        suggestionUser.classList.add('suggestion-user');
+
+        // Create the user details elements (similar to your template)
+        // You can use innerHTML or create individual elements like 'div' and 'a'.
+        suggestionUser.innerHTML = `
+            <div>
+                <a href="/profile/${user.username}">
+                    <div class="small-profilepic" style="background-image: url(/media/${user.profile_pic})"></div>
+                </a>
+            </div>
+            <div class="user-details">
+                <a href="/profile/${user.username}">
+                    <div id="user-name">
+                        <strong>${user.first_name} ${user.last_name}</strong>
+                    </div>
+                    <div class="grey">@${user.username}</div>
+                </a>
+            </div>
+            <div>
+                <button class="btn btn-outline-danger" type="button" onclick="follow_user(this, '${user.username}', 'suggestion')">Follow</button>
+            </div>
+        `;
+        // Append the user element to the suggestion-users container
+        suggestionUsers.appendChild(suggestionUser);
+      // console.log(document.getElementsByClassName("suggestion-footer")[0].style.display)
+})}
+
 function remove_drop_down(event) {
   setTimeout(() => {
     event.target.parentElement.querySelector(".dropdown-menu").style.display =
@@ -505,6 +540,8 @@ function display_comment(comment, container, new_comment = false) {
     container.append(eachrow);
   }
 }
+
+
 
 function goto_register() {
   window.location.href = "/n/register";
