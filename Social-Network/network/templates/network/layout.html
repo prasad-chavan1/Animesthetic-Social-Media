@@ -230,6 +230,7 @@
                             <div class="suggestion-header">
                                 You might know
                             </div>
+                            <div class="suggestion-users">
                             {% for suggestion in suggestions %}
                                 <div class="suggestion-user">
                                     <div>
@@ -257,9 +258,10 @@
                                         <span class="grey" style="font-size: .9em;">No suggestions available.</span>
                                     </div>
                             {% endfor %}
-                            <div class="suggestion-footer">
-                                <a href="#">Show more</a>
-                            </div>
+                        </div>
+                        <div class="suggestion-footer">
+                            <a href="#"  onclick="show_more_suggestions()">Show more</a>
+                        </div>
                         </div>
                     {% else %}
                         <div class="guest-box">

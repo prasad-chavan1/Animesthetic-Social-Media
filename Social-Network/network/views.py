@@ -22,7 +22,7 @@ def index(request):
     suggestions = []
     if request.user.is_authenticated:
         followings = Follower.objects.filter(followers=request.user).values_list('user', flat=True)
-        suggestions = User.objects.exclude(pk__in=followings).exclude(username=request.user.username).order_by("?")[:6]
+        suggestions = User.objects.exclude(pk__in=followings).exclude(username=request.user.username).order_by("-is_active","username")[:6]
     return render(request, "network/index.html", {
         "posts": posts,
         "suggestions": suggestions,
@@ -50,6 +50,23 @@ def login_view(request):
     else:
         return render(request, "network/login.html")
 
+def more_suggested_friends(request):
+    followings = []
+    suggested=[]
+    new_suggestions = User.objects.exclude(pk__in=followings).exclude(username=request.user.username).order_by("-is_active","username")[6:12]
+    suggested = [
+    {
+        "username": suggestion["username"],
+        "first_name": suggestion["first_name"],
+        "last_name": suggestion["last_name"],
+        "profile_pic": suggestion["profile_pic"]
+    }
+    for suggestion in new_suggestions.values()
+]
+    response_data = {
+        'suggestions': suggested#new_suggestions.values()
+    }
+    return  JsonResponse(response_data)
 
 def logout_view(request):
     logout(request)
