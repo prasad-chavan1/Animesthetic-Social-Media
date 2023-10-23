@@ -53,6 +53,10 @@ If you would like to contribute to this project, please follow these steps:
 - Create a pull request to the main repository's main branch.
 - Wait for a review and approval from the project maintainers.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=prasad-chavan1/Animesthetic-Social-Media&type=Timeline)](https://star-history.com/#prasad-chavan1/Animesthetic-Social-Media&Timeline)
+
 ## Contributors
 
 Thank you to the following contributors who have helped improve this project:
