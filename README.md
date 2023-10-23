@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 2. Install the required librarys using command:
 
    ```shell
-   pip install -m requirements.txt
+   pip install -r requirements.txt
 
 3. Then go to Social App directory using command:
 
